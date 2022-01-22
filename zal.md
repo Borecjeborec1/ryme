@@ -1,0 +1,7 @@
+List of all avalaible commands!
+
+> **1**. Play -> Plays a given URL or fetchs 1st youtube video! _(\`!play\`|\`!p\` **name**)_ > **2**. Search -> Searchs top 15 youtube videos! _(!search **name**)_ > **3**. Pause -> Pause current song! _(!pause)_ > **4**. Resume -> Resume paused song! _(!resume)_ > **5**. Skip -> Skip current song! _(!skip|!s)_ > **6**. Disconnect -> Disconnect Ryme! _(!disconnect/!dis)_ > **7**. Shuffle -> Shuffle current queue randomly! _(!shuffle)_ > **8**. Loop -> Loops current song! _(!loop)_ > **9**. Loopqueue -> Loops current queue! _(!loopqueue)_ > **10**. Queue -> Outputs current queue, with Timestamps! _(!queue)_ > **11**. Volume -> Changes the volume of Played song! _(!volume **0-100**)_ > **12**. Filter -> Applies sound filter! _(!filter **!ftypes**)_ > **13**. Autoplay -> Toggles autoplay _(!autoplay)_ > **14**. Remove - Remove song from queue! _(!remove **index**)_ > **15**. Clear -> Clears the whole queue _(!clear)_ > **16**. Move -> Move song to another positoin in queue _(!move **From Index** **To Index**)_ > **17**. Playskip -> Skip current song and play another! _(!playskip **name**)_ > **18**. Setroom -> Set the room for commands! _(!setroom **Room-Name**)_ > **19**. DJ -> Toggles DJ mode! _(!dj)_ > **20**. Ping -> Check ping! _(!ping)_ > **21**. Filter Types -> Outputs all avalaible filter types! _(!ftypes)_ > **22**. Language -> Change the language of Ryme messages! _(!lang **name**)_ > **23**. Help -> Outputs this! _(!help)_ > **24**. Fullhelp -> Outputs full help box! _(!fullhelp)_
+
+VOLUME
+MOVE
+AUTOPLAY
