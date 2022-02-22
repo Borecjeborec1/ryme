@@ -279,7 +279,7 @@ client.on('message', async (msg) => {
     }
     fs.writeFileSync('./db.json', JSON.stringify(db));
   } catch (er) {
-    console.log(er)
+    console.log("Whole: ", er)
   }
 });
 const status = (queue) =>
