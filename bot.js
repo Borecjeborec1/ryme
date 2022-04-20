@@ -5,9 +5,7 @@ const DisTube = require('distube');
 const distube = new DisTube(client, { searchSongs: false, emitNewSongOnly: true });
 require('dotenv').config();
 const langs = require('./langs.json');
-// if (!process.env.token) {
-//   const { token, prefix, api_key } = require('./config.json');
-// }
+
 
 let db = require('./db.json') || {};
 
