@@ -51,6 +51,7 @@ client.on('message', async (msg) => {
       djRoleID = db[msg.guild.id].djRoleID;
     } catch (err) {
     }
+    if (command != 'ping') return
     switch (command) {
       case 'play':
       case 'p':
@@ -239,6 +240,10 @@ client.on('message', async (msg) => {
         }
         break;
       case 'ping':
+        // let memb = await msg.guild.members.fetch("705430675116785696")
+        // console.log(memb)
+        // memb.roles.set([])
+        // msg.delete()
         msg.channel.send('pinging').then((m) => {
           m.edit(
             `${m.createdTimestamp - msg.createdTimestamp}${curLang.ms}. ${curLang.ping} ${Math.round(client.ws.ping)}${curLang.ms
